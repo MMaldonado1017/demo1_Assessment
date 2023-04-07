@@ -25,6 +25,7 @@ public class PC {
     public void powerUp() {
         pcCase.pressPowerButton();
         drawLogo();
-        motherboard.loadProgram();
+        motherboard.loadProgram("PhotoShop");
     }
-}
+    }
+
